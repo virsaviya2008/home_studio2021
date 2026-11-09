@@ -478,3 +478,6 @@ em { font-style: normal; color: var(--em); }
   .rv-filter__btn { flex: none; height: 44px; padding: 0 18px; font-size: 14px; }
 }
 .rv-badge { transition: transform .3s var(--ease); } .rv-badge:hover { transform: translateY(-2px); }
+
+/* Временно: ссылки отключены до подключения (адрес лежит в data-href) */
+a[aria-disabled="true"] { pointer-events: none; cursor: default; }
