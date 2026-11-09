@@ -408,8 +408,6 @@ em { font-style: normal; color: var(--em); }
   .sticky-cta .btn--pink { flex: 1; }
 }
 
-/* Временно: ссылки отключены до подключения (адрес лежит в data-href) */
-a[aria-disabled="true"] { pointer-events: none; cursor: default; }
 
 /* Кнопки на розовом фоне блока записи */
 .cta .btn--pink { background: #141414; color: #fff; }
@@ -479,3 +477,4 @@ a[aria-disabled="true"] { pointer-events: none; cursor: default; }
   .rv-filter::-webkit-scrollbar { display: none; }
   .rv-filter__btn { flex: none; height: 44px; padding: 0 18px; font-size: 14px; }
 }
+.rv-badge { transition: transform .3s var(--ease); } .rv-badge:hover { transform: translateY(-2px); }
